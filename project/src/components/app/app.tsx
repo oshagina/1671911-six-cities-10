@@ -1,5 +1,13 @@
-function App(): JSX.Element {
-  return <p><i>Hello, Olga!</i></p>;
+import MainPage from '../../pages/main-page/main-page';
+
+type AppProps = {
+  placeCardCount: number
+}
+
+function App({ placeCardCount }: AppProps): JSX.Element {
+  return (
+    <MainPage placeCardCount={placeCardCount} />
+  );
 }
 
 export default App;
