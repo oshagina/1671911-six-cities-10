@@ -1,11 +1,5 @@
 function PropertyNotLogged(): JSX.Element {
-    return (
-/*
-<div style="display: none">
-        <svg xmlns="http://www.w3.org/2000/svg"><symbol id="icon-arrow-select" viewbox="0 0 7 4"><path fill-rule="evenodd" clip-rule="evenodd" d="M0 0l3.5 2.813L7 0v1.084L3.5 4 0 1.084V0z"></path></symbol><symbol id="icon-bookmark" viewbox="0 0 17 18"><path d="M3.993 2.185l.017-.092V2c0-.554.449-1 .99-1h10c.522 0 .957.41.997.923l-2.736 14.59-4.814-2.407-.39-.195-.408.153L1.31 16.44 3.993 2.185z"></path></symbol><symbol id="icon-star" viewbox="0 0 13 12"><path fill-rule="evenodd" clip-rule="evenodd" d="M6.5 9.644L10.517 12 9.451 7.56 13 4.573l-4.674-.386L6.5 0 4.673 4.187 0 4.573 3.549 7.56 2.483 12 6.5 9.644z"></path></symbol></svg>
-      </div>
-*/
-  
+    return ( 
       <div className="page">
         <header className="header">
           <div className="container">
@@ -72,7 +66,7 @@ function PropertyNotLogged(): JSX.Element {
                 </div>
                 <div className="property__rating rating">
                   <div className="property__stars rating__stars">
-                    <span style="width: 80%"></span>
+                    <span style={{width: '80%'}}></span>
                     <span className="visually-hidden">Rating</span>
                   </div>
                   <span className="property__rating-value rating__value">4.8</span>
@@ -131,7 +125,7 @@ function PropertyNotLogged(): JSX.Element {
                   <h2 className="property__host-title">Meet the host</h2>
                   <div className="property__host-user user">
                     <div className="property__avatar-wrapper property__avatar-wrapper--pro user__avatar-wrapper">
-                      <img className="property__avatar user__avatar" src="img/avatar-angelina.jpg" width="74" height="74" alt="Host avatar">
+                      <img className="property__avatar user__avatar" src="img/avatar-angelina.jpg" width="74" height="74" alt="Host avatar"/>
                     </div>
                     <span className="property__user-name">
                       Angelina
@@ -155,7 +149,7 @@ function PropertyNotLogged(): JSX.Element {
                     <li className="reviews__item">
                       <div className="reviews__user user">
                         <div className="reviews__avatar-wrapper user__avatar-wrapper">
-                          <img className="reviews__avatar user__avatar" src="img/avatar-max.jpg" width="54" height="54" alt="Reviews avatar">
+                          <img className="reviews__avatar user__avatar" src="img/avatar-max.jpg" width="54" height="54" alt="Reviews avatar"/>
                         </div>
                         <span className="reviews__user-name">
                           Max
@@ -164,14 +158,14 @@ function PropertyNotLogged(): JSX.Element {
                       <div className="reviews__info">
                         <div className="reviews__rating rating">
                           <div className="reviews__stars rating__stars">
-                            <span style="width: 80%"></span>
+                            <span style={{width: '80%'}}></span>
                             <span className="visually-hidden">Rating</span>
                           </div>
                         </div>
                         <p className="reviews__text">
                           A quiet cozy and picturesque that hides behind a a river by the unique lightness of Amsterdam. The building is green and from 18th century.
                         </p>
-                        <time className="reviews__time" datetime="2019-04-24">April 2019</time>
+                        <time className="reviews__time" dateTime="2019-04-24">April 2019</time>
                       </div>
                     </li>
                   </ul>
@@ -187,7 +181,7 @@ function PropertyNotLogged(): JSX.Element {
                 <article className="near-places__card place-card">
                   <div className="near-places__image-wrapper place-card__image-wrapper">
                     <a href="#">
-                      <img className="place-card__image" src="img/room.jpg" width="260" height="200" alt="Place image">
+                      <img className="place-card__image" src="img/room.jpg" width="260" height="200" alt="Place image"/>
                     </a>
                   </div>
                   <div className="place-card__info">
@@ -198,14 +192,14 @@ function PropertyNotLogged(): JSX.Element {
                       </div>
                       <button className="place-card__bookmark-button place-card__bookmark-button--active button" type="button">
                         <svg className="place-card__bookmark-icon" width="18" height="19">
-                          <use xlink:href="#icon-bookmark"></use>
+                          <use xlinkHref="#icon-bookmark"></use>
                         </svg>
                         <span className="visually-hidden">In bookmarks</span>
                       </button>
                     </div>
                     <div className="place-card__rating rating">
                       <div className="place-card__stars rating__stars">
-                        <span style="width: 80%"></span>
+                        <span style={{width: '80%'}}></span>
                         <span className="visually-hidden">Rating</span>
                       </div>
                     </div>
@@ -219,7 +213,7 @@ function PropertyNotLogged(): JSX.Element {
                 <article className="near-places__card place-card">
                   <div className="near-places__image-wrapper place-card__image-wrapper">
                     <a href="#">
-                      <img className="place-card__image" src="img/apartment-02.jpg" width="260" height="200" alt="Place image">
+                      <img className="place-card__image" src="img/apartment-02.jpg" width="260" height="200" alt="Place image"/>
                     </a>
                   </div>
                   <div className="place-card__info">
@@ -230,14 +224,14 @@ function PropertyNotLogged(): JSX.Element {
                       </div>
                       <button className="place-card__bookmark-button button" type="button">
                         <svg className="place-card__bookmark-icon" width="18" height="19">
-                          <use xlink:href="#icon-bookmark"></use>
+                          <use xlinkHref="#icon-bookmark"></use>
                         </svg>
                         <span className="visually-hidden">To bookmarks</span>
                       </button>
                     </div>
                     <div className="place-card__rating rating">
                       <div className="place-card__stars rating__stars">
-                        <span style="width: 80%"></span>
+                        <span style={{width: '80%'}}></span>
                         <span className="visually-hidden">Rating</span>
                       </div>
                     </div>
@@ -254,7 +248,7 @@ function PropertyNotLogged(): JSX.Element {
                   </div>
                   <div className="near-places__image-wrapper place-card__image-wrapper">
                     <a href="#">
-                      <img className="place-card__image" src="img/apartment-03.jpg" width="260" height="200" alt="Place image">
+                      <img className="place-card__image" src="img/apartment-03.jpg" width="260" height="200" alt="Place image"/>
                     </a>
                   </div>
                   <div className="place-card__info">
@@ -265,14 +259,14 @@ function PropertyNotLogged(): JSX.Element {
                       </div>
                       <button className="place-card__bookmark-button button" type="button">
                         <svg className="place-card__bookmark-icon" width="18" height="19">
-                          <use xlink:href="#icon-bookmark"></use>
+                          <use xlinkHref="#icon-bookmark"></use>
                         </svg>
                         <span className="visually-hidden">To bookmarks</span>
                       </button>
                     </div>
                     <div className="place-card__rating rating">
                       <div className="place-card__stars rating__stars">
-                        <span style="width: 100%"></span>
+                        <span style={{width: '100%'}}></span>
                         <span className="visually-hidden">Rating</span>
                       </div>
                     </div>
